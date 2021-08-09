@@ -2,21 +2,9 @@
 *{box-sizing: border-box;
 margin: 0;
 padding: 0;
-}
+font-size:1.2rem;
+list-style: none;
+text-decoration: none;
+font-family: 'Nunito', sans-serif;
 
-
-:root {
-    --menu-width: 37.5em; /* Width of menu */
-    --items: 4; /* Number of items you have */
-    --item-width: calc(var(--menu-width) / var(--items));
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(45deg, #102eff, #d2379b);
-    font-family: 'Roboto', sans-serif;
-    /* height: 100vh; */
-    /* overflow: hidden; */
-    /* width: 100vw; */
 }

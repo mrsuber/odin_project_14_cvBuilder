@@ -1,0 +1,8 @@
+.sidebar__container{
+  width:16.3rem;
+  height: 100vh;
+  position: fixed;
+  background-color:var(--sidebar-dark-color);
+  color:var(--font-light-color);
+
+}

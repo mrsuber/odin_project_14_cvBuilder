@@ -1,0 +1,25 @@
+
+:root{
+  --primary-color:#007bff;
+  --secondary-color:#6c757d;
+  --background-dark-color:#10121A;
+  --border-color:#2e344e;
+  --background-light-color:#f1f1f1;
+  --white-color:#fff;
+  --font-light-color:#a4acc4;
+  --font-dark-color:#313131;
+  --font-dark-color-2:#151515;
+  --sidebar-dark-color:#191d2B;
+}
+.profolio__container{
+  background-color: var(--background-dark-color);
+  color:var(--font-light-color);
+
+  height: 100vh;
+  width:auto;
+}
+a{
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit
+}

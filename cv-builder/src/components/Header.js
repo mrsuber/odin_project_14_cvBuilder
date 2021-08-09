@@ -6,7 +6,7 @@ function Header(){
     <div>
 
     <Nav />
-    
+
 
     </div>
   )

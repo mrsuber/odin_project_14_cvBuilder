@@ -4,7 +4,7 @@ function Nav(){
   return(
 
     <>
-        <script src="" crossorigin="anonymous"></script>
+
 
 
         <nav id="menu">
@@ -99,9 +99,11 @@ function Nav(){
                 </div>
             </div>
             <div class="profolio">
+                <Link to='/myprotfolio' style={{ textDecoration: 'none' }}>
                 <div class="menu-text">
-                    <a href="#">My Profolio</a>
+                    <a>My Profolio</a>
                 </div>
+                </Link>
 
             </div>
             <div class="menu-item">
