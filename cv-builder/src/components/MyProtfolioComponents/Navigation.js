@@ -1,6 +1,6 @@
 import '../../styles/Navigation.css'
 import {NavLink} from 'react-router-dom'
-import avatar from '../../images/avatar.jpg'
+import avatar from '../../images/me.webp'
 
 function Navigation(){
   return(
