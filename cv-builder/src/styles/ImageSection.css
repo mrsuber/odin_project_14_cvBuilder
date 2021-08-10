@@ -7,9 +7,12 @@
 }
 .left-content{
   width: 100%;
+
 }
 .left-content>img{
   width: 80%;
+  height: 100%;
+  object-fit: cover;
 
 }
 .right-content > h4{
