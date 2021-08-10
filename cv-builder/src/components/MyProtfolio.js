@@ -1,9 +1,9 @@
 import '../styles/MyProtfolio.css'
 // import styled from 'styled-components'
-import HomePage from './MyProtfolioComponents/pages/HomePage'
+// import HomePage from './MyProtfolioComponents/pages/HomePage'
 import SideBar from './MyProtfolioComponents/SideBar'
 
-function MyProtfolio(){
+function MyProtfolio({page}){
   return(
     <div className='profolio__container'>
         <SideBar />
@@ -14,7 +14,7 @@ function MyProtfolio(){
           <div className="line-3"></div>
           <div className="line-4"></div>
         </div>
-        <HomePage />
+        {page}
         </div>
     </div>
   )
