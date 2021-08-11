@@ -3,7 +3,7 @@ import '../../../styles/MainLayout.css'
 import Title from '../../Title'
 import ImageSection from "../ImageSection"
 import ServicesSection from "../ServicesSection"
-
+import ReviewSection from '../ReviewSection'
 
 function AboutPage(){
   return(
@@ -12,6 +12,7 @@ function AboutPage(){
     <Title title={'About Me'} span={' About Me'}/>
     <ImageSection />
     <ServicesSection />
+    <ReviewSection />
     </section>
   )
 
