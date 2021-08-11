@@ -13,12 +13,10 @@ transition: all .4s ease-in-out;
   background-color: var(--background-dark-color);
   color: var(--primary-color);
 }
-/* .primary__btn:hover::after{
+/* .primary__btn::after{
   content:"";
   position: absolute;
-  width: 80%;
-  height:20%;
-  background-color: red;
-  /* left:0;
-  bottom:0; */
-/* }  */
+  width: 100%;
+  transition: all .4s ease-in-out;
+
+} */

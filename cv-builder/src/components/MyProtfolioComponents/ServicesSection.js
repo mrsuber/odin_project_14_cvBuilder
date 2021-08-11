@@ -17,19 +17,22 @@ function ServicesSection(){
                 <ServiceCard
                 image={design}
                 title={'Web Design'}
-                paragraph={"portfolio introduces me better than my words do, so if want we can look at it together, and I can tell you about the principal projects I engineered over"}
+                paragraph={" together, and I can tell you about the principal projects I engineered over"}
                 />
 
+                <div className="mid-card">
                 <ServiceCard
                 image={intelligence}
                 title={'Artificial Intelligence'}
-                paragraph={"portfolio introduces me better than my words do, so if want we can look at it together, and I can tell you about the principal projects I engineered over"}
+                paragraph={"together, and I can tell you about the principal projects I engineered over"}
                 />
+                </div>
+
 
                 <ServiceCard
                 image={gamedev}
                 title={'Game Developement'}
-                paragraph={"portfolio introduces me better than my words do, so if want we can look at it together, and I can tell you about the principal projects I engineered over"}
+                paragraph={"together, and I can tell you about the principal projects I engineered over"}
                 />
             </div>
         </div>
