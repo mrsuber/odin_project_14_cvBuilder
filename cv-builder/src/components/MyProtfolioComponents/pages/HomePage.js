@@ -13,7 +13,7 @@ function HomePage(){
       </div>
       <div className="typography">
         <h1>Hi I'm <span>Mohamad</span></h1>
-        <p>An experienced programmer with several successful projects under my belt. I’d say my portfolio introduces me better than my words do, so if want we can look at it together, and I can tell you about the principal projects I engineered over the years.</p>
+        <p>An experienced programmer with several successful projects under my belt. I’d say my portfolio introduces me better than my words do, so if you want we can look at it together, and I can tell you about the principal projects I engineered over the years.</p>
         <div className="icons">
           <a href="https://www.facebook.com/mohamad.siysinyuy" className= "icon i-facebook"><FacebookIcon/> </a>
           <a href="http://www.github.com/mrsuber" className="icon i-github"><GithubIcon/></a>

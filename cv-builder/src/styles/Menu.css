@@ -1,0 +1,23 @@
+.menu__container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:2rem;
+}
+
+.menugrid__item{
+  display: block;
+  position:relative;
+}
+
+.portfolio__image>img{
+  width: 100%;
+  height:30vh;
+  object-fit: cover;
+}
+
+.portfolio__image>ul{
+  display: none;
+}
+.portfolio__content >h6{
+  font-size: 1.5rem;
+}
