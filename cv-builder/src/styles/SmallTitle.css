@@ -1,0 +1,17 @@
+.smallTittle__container{
+  display: flex;
+  align-items: center;
+
+}
+.smallTittle__container>p{
+  padding-right: 1rem;
+}
+
+.smallTittle__container>h3{
+color: var(--white-color);
+font-size: 2rem;
+}
+
+.smallTittle__container>p>svg{
+  font-size: 2rem;
+}

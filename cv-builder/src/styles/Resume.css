@@ -1,0 +1,6 @@
+.smallTitleMain__container{
+padding-bottom: 3rem;
+}
+.resume__content{
+  border-left: 2px solid var(--border-color);
+}
