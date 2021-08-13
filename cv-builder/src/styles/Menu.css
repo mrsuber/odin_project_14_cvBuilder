@@ -10,6 +10,7 @@
 .portfolio__content{
   display: block;
   position:relative;
+  overflow: hidden;
 
 }
 
@@ -43,15 +44,14 @@
 
 .portfolio__image:hover>ul{
   transform:translateY(0);
-  display: block;
-  position: absolute;
-  left: 50%;
-  top:40%;
+  /* display: block; */
+
   transform: translate(-50%,-50%);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all .4s ease-in-out;
+  transition: all .5s ease-in-out;
+  opacity: 1;
 }
 .portfolio__image:hover>ul>svg{
   font-size: 2rem;
@@ -99,7 +99,23 @@
 } */
 .portfolio__image>ul{
   display: none;
-  transform:translateY(-100px);
+  transform:translateY(-600px);
+  transition: all .4s ease-in-out;
+  position: absolute;
+  left: 50%;
+  top:40%;
+  opacity: 0;
+
+
+  /* background-color: var(--border-color); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  border-radius: 50%;
+  margin: 0 .5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   transition: all .4s ease-in-out;
 }
 .portfolio__content >h6{
