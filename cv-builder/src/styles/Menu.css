@@ -3,11 +3,90 @@
   grid-template-columns: repeat(3,1fr);
   grid-gap:2rem;
 }
-
 .menugrid__item{
+  /* display: block;
+  position:relative; */
+}
+.portfolio__content{
   display: block;
   position:relative;
+
 }
+
+.portfolio__image{
+
+}
+.portfolio__image::before{
+  content: "";
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  /* transform: scale(0); */
+  height: 0;
+  width: 0;
+  transition: all .4s ease-in-out;
+}
+
+.portfolio__image:hover::before{
+  content: "";
+  position: absolute;
+  left: 2%;
+  width: 96%;
+  top: 2%;
+  height: 68%;
+  background-color:white;
+  opacity: 0.9;
+  transform-origin: left;
+  /* transform: scale(1); */
+  transition: all .4s ease-in-out;
+}
+
+.portfolio__image:hover>ul{
+  transform:translateY(0);
+  display: block;
+  position: absolute;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .4s ease-in-out;
+}
+.portfolio__image:hover>ul>svg{
+  font-size: 2rem;
+
+}
+/* .portfolio__image>svg:hover{
+  color: var(--white-color);
+  transition: all .4s ease-in-out;
+} */
+
+.portfolio__image:hover>ul>li{
+  background-color: var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  border-radius: 50%;
+  margin: 0 .5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: all .4s ease-in-out;
+}
+.portfolio__image:hover>ul>li:hover{
+  background-color: var(--primary-color);
+}
+.portfolio__image:hover>ul>li:hover>a>svg:hover{
+  color: var(--white-color);
+  transition: all .4s ease-in-out;
+}
+.portfolio__image>ul>li>a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .portfolio__image>img{
   width: 100%;
@@ -15,9 +94,24 @@
   object-fit: cover;
 }
 
+/* .portfolio__content>ul{
+  visibility:hidden;
+} */
 .portfolio__image>ul{
   display: none;
+  transform:translateY(-100px);
+  transition: all .4s ease-in-out;
 }
 .portfolio__content >h6{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
+.portfolio__content >p{
+  font-size: .8rem;
+}
+
+
+
+/* .portfolio__image>ul:hover{
+  display: block;
+  position: absolute;
+} */

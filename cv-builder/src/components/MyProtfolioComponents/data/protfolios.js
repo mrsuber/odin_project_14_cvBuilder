@@ -19,7 +19,7 @@ const portfolios=[
     image:img2,
     link1:'#',
     link2:'#',
-    title:'How To Animate In Maya',
+    title:'Animate In Maya',
     text:'Number one Animation Application'
   },
   {
@@ -47,7 +47,7 @@ const portfolios=[
     image:img2,
     link1:'#',
     link2:'#',
-    title:'How To Animate In Maya',
+    title:'Animate In Maya',
     text:'Number one Animation Application'
   }
 ]

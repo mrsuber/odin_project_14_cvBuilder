@@ -16,7 +16,9 @@ function Menu({menuItem}){
                           <li><a href={item.link2}><Pinterest/></a></li>
 
                         </ul>
-                    </div>
+                        </div>
+
+
                     <h6>{item.title}</h6>
                     <p>{item.text}</p>
 

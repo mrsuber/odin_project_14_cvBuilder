@@ -18,7 +18,7 @@ function Navigation(){
 
 
       </ul>
-      <footer>
+      <footer className="homesidebar__footer">
         <p>@2021 My Portfolio Website</p>
       </footer>
     </div>
