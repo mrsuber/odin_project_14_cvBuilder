@@ -10,13 +10,13 @@
   align-items: center;
   justify-content: center;
 }
-.light__dark__mode>.left__content>svg{
+.light__dark__mode>.mode__left__content>svg{
   display: flex;
   align-items: center;
   font-size: 1.67rem;
   color: var(--white-color);
 }
-.left__content,.right__content{
+.mode__left__content,.mode__right__content{
   display: flex;
   align-items: center;
 
