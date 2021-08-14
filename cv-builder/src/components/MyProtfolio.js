@@ -4,9 +4,8 @@ import '../styles/MyProtfolio.css'
 import SideBar from './MyProtfolioComponents/SideBar'
 import ChangeMode from '../components/ChangeMode'
 
-
-
 function MyProtfolio({page}){
+
   return(
     <div className='profolio__container'>
         <SideBar />
