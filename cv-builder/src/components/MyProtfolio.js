@@ -2,11 +2,15 @@ import '../styles/MyProtfolio.css'
 // import styled from 'styled-components'
 // import HomePage from './MyProtfolioComponents/pages/HomePage'
 import SideBar from './MyProtfolioComponents/SideBar'
+import ChangeMode from '../components/ChangeMode'
+
+
 
 function MyProtfolio({page}){
   return(
     <div className='profolio__container'>
         <SideBar />
+        <ChangeMode/>
         <div className="main__content">
         <div className="lines">
           <div className="line-1"></div>
@@ -16,6 +20,7 @@ function MyProtfolio({page}){
         </div>
         {page}
         </div>
+
     </div>
   )
 }

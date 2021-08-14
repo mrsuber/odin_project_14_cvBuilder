@@ -6,13 +6,14 @@ import PrimaryButton from '../PrimaryButton'
 import PhoneIcon from '@material-ui/icons/Phone'
 import EmailIcon from '@material-ui/icons/Email'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
-
+// import ChangeMode from '../../ChangeMode'
 
 function ContactPage(){
 
   return(
 
     <div className="all">
+
     <Title title={'Contact'} span={'Contact'} />
     <div className="contactPage__container">
       <div className="innerLayout contact__section">

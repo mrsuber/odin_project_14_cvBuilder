@@ -3,10 +3,12 @@ import '../../../styles/MainLayout.css'
 
 import blogs from "../data/blogs"
 import Title from '../../Title'
+// import ChangeMode from '../../ChangeMode'
 
 function BlogPage(){
   return(
     <div className="all ">
+
     <div className=" blogpage__container ">
     <Title title={'Blogs'} span={'Blogs'} />
     <div className="innerLayout blog">

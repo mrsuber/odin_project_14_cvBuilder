@@ -5,7 +5,7 @@ import Menu from "../../Menu"
 import Button from '../../Button'
 import {useState} from 'react'
 import portfolios from '../data/protfolios'
-
+// import ChangeMode from '../../ChangeMode'
 const allButtons =['All',...new Set(portfolios.map(item=>item.category))]
 
 // const allButtons =['All',...portfolios.map(item=>item.category)]
@@ -23,6 +23,7 @@ function ProfolioPage(){
   }
   return(
     <div className="all">
+  
     <Title title={'Portfolios'} span ={'Portfolios'} />
         <div className="innerLayout">
             <Button filter={filter} button={button}/>

@@ -44,13 +44,13 @@ function Resume(){
                </div>
           </div>
           <div className="smallTitleMain__container">
-          <SmallTitle icon={<SchoolIcon/>} title={'Working Experince'} />
+          <SmallTitle icon={<SchoolIcon/>} title={'Educational Qualifications'} />
 
           </div>
           <div className="resume__content">
             <ResumeItem
-            year={'2015 - 2020'}
-            title={'Computer Science Teacher'}
+            year={'2017 - 2020'}
+            title={'Computer Science Degree'}
             subTitle={'University Of Buea'}
             text={'Jamstack Explorers is an online learning platform where not only can you learn how to get the most from Netlify, but also about frameworks, APIs and clever web development techniques. Every mission lets you chart your course and track your progress—and you can earn rewards along the way. What new adventures will you find in the great unknown'}
 

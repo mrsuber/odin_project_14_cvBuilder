@@ -3,11 +3,12 @@ import Particle from '../Particle'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import GithubIcon from '@material-ui/icons/GitHub'
 import YoutubeIcon from '@material-ui/icons/YouTube'
-
+// import ChangeMode from '../../ChangeMode'
 
 function HomePage(){
   return(
     <div className="homepage__container">
+
       <div className="particle-con">
         <Particle />
       </div>
@@ -19,7 +20,9 @@ function HomePage(){
           <a href="http://www.github.com/mrsuber" className="icon i-github"><GithubIcon/></a>
           <a href="https://www.youtube.com/channel/UC1DjtEqj9566DSexb-BAtQw" className="icon i-youtube"><YoutubeIcon/></a>
         </div>
+
       </div>
+
     </div>
   )
 }
