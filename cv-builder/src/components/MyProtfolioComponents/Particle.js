@@ -12,7 +12,7 @@ function Particle(){
                   enable:true,
                   value_area:1200
                 }
-              },
+                  },
               shape:{
                 type:'circle',
                 stroke:{

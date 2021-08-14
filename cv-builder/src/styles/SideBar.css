@@ -4,5 +4,6 @@
   position: fixed;
   background-color:var(--sidebar-dark-color);
   color:var(--font-light-color);
+  overflow: hidden;
 
 }
