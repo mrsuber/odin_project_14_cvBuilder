@@ -1,0 +1,22 @@
+.primary__btn{
+background-color: var(--primary-color);
+padding:.8rem 2.5rem;
+color:var(--white-color);
+cursor:pointer;
+display: inline-block;
+font-size: inherit;
+text-transform: uppercase;
+border: solid 2px var(--primary-color);
+transition: all .4s ease-in-out;
+}
+.primary__btn:hover{
+  background-color: var(--background-dark-color);
+  color: var(--primary-color);
+}
+/* .primary__btn::after{
+  content:"";
+  position: absolute;
+  width: 100%;
+  transition: all .4s ease-in-out;
+
+} */

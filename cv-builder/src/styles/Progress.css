@@ -1,0 +1,26 @@
+.progress__container{
+padding-left: 1.2rem;
+}
+
+.progress__bar{
+  display: flex;
+  align-items: center;
+
+}
+.progress{
+  position: relative;
+  width: 100%;
+  height: .4rem;
+  background-color: var(--border-color);
+}
+.progress >span{
+  background-color: var(--primary-color);
+  left:0;
+  bottom: 0;
+  height: .4rem;
+  position:absolute;
+}
+.progress__text{
+  padding-right: 1.2rem;
+
+}

@@ -1,0 +1,25 @@
+.reviewItem__container{
+  height: 15vh;
+  padding: 2.5rem 1rem;
+  border-left: 6px solid var(--border-color);
+  background-color: var(--background-dark-grey);
+  position: relative;
+  width: 50%;
+}
+.reviewItem__container::after{
+content: "";
+position: absolute;
+left: 1rem;
+border-width:.8rem;
+top :100%;
+border-style: solid;
+border-color: var(--background-dark-grey) transparent transparent var(--background-dark-grey);
+}
+.reviewItem__container:not(:first-child){
+  margin-left:2rem;
+}
+.reviewItem__container >p{
+  padding: 2rem 0;
+  margin-top: -70px;
+  font-size: 1rem;
+}

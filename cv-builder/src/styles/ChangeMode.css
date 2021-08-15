@@ -1,0 +1,23 @@
+.light__dark__mode{
+  position: fixed;
+  right: 0;
+  top:50%;
+  background-color: var(--background-ligth-color-2);
+  width: 6.5rem;
+  height: 2.5rem;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.light__dark__mode>.mode__left__content>svg{
+  display: flex;
+  align-items: center;
+  font-size: 1.67rem;
+  color: var(--white-color);
+}
+.mode__left__content,.mode__right__content{
+  display: flex;
+  align-items: center;
+
+}
