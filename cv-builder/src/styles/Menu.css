@@ -3,6 +3,21 @@
   grid-template-columns: repeat(3,1fr);
   grid-gap:2rem;
 }
+@media screen and (max-width:920px){
+  .menu__container{
+
+    grid-template-columns: repeat(2,1fr);
+
+  }
+}
+
+@media screen and (max-width:670px){
+  .menu__container{
+
+    grid-template-columns: repeat(1,1fr);
+
+  }
+}
 .menugrid__item{
   /* display: block;
   position:relative; */
@@ -124,10 +139,3 @@
 .portfolio__content >p{
   font-size: .8rem;
 }
-
-
-
-/* .portfolio__image>ul:hover{
-  display: block;
-  position: absolute;
-} */

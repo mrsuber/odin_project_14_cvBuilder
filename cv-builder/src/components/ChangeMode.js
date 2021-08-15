@@ -24,8 +24,8 @@ function ChangeMode(){
   return(
     <div className="theme">
     <div className="light__dark__mode">
-      <div className="left__content"><Brightness4Icon/></div>
-      <div className="right__content">
+      <div className="mode__left__content"><Brightness4Icon/></div>
+      <div className="mode__right__content">
           <Switch
               value=""
               checked={checked}

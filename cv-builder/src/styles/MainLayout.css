@@ -5,3 +5,14 @@
 .innerLayout {
   padding: 5rem 0 !important;
 }
+@media screen and (max-width:642px){
+  .all{
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width:642px){
+  .all{
+    padding: 3rem;
+  }
+}

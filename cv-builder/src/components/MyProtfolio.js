@@ -12,10 +12,10 @@ function MyProtfolio({page}){
 
   return(
     <div className='profolio__container'>
-        <SideBar />
+        <SideBar navToggle={navToggle}/>
         <ChangeMode/>
         <div className="ham-burger-menu">
-            <IconButton>
+            <IconButton onClick={()=>setNavToggle(!navToggle)}>
             <MenuIcon/>
             </IconButton>
         </div>

@@ -40,7 +40,7 @@ function ContactPage(){
               <label htmlFor="text-area">Enter Your Message</label>
                 <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
               </div>
-              <div className="form__field">
+              <div className="form__field form__button">
                   <PrimaryButton title={'send email'}/>
               </div>
             </form>

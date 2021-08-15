@@ -40,3 +40,10 @@ padding-right: 3rem;
   font-size: .85rem;
   /* width: 6rem; */
 }
+
+@media screen and (max-width:1000px){
+  .image__container{
+    flex-direction: column;
+  }
+  .left-content{margin-bottom: 2rem;}
+}

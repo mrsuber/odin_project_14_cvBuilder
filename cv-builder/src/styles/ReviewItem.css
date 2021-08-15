@@ -4,7 +4,7 @@
   border-left: 6px solid var(--border-color);
   background-color: var(--background-dark-grey);
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 .reviewItem__container::after{
 content: "";
@@ -15,9 +15,9 @@ top :100%;
 border-style: solid;
 border-color: var(--background-dark-grey) transparent transparent var(--background-dark-grey);
 }
-.reviewItem__container:not(:first-child){
+/* .reviewItem__container:not(:first-child){
   margin-left:2rem;
-}
+} */
 .reviewItem__container >p{
   padding: 2rem 0;
   margin-top: -70px;

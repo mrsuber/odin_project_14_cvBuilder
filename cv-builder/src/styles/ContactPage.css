@@ -1,28 +1,60 @@
 .contact__section{
-display: flex;
-justify-content: space-between;
+/* display: flex;
+justify-content: space-between; */
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-column-gap: 2rem;
+}
+@media screen and (max-width:978px){
+  .contact__section{
 
+  grid-template-columns: repeat(1,1fr);
+
+  }
+
+  .left__content{
+
+  max-width: 100% !important;
+  padding-left: 0 !important;
+
+  }
+  .right__content{
+    /* display: flex;
+
+    flex-direction: column; */
+    padding-left: 0 !important;
+  }
+
+  .form__button{
+    margin-bottom: 3rem
+  }
+  .form{
+  min-width: 50vw;
+  }
 }
 
 .contactPage__container{
   display: grid;
   grid-template-columns:repeat(2,1fr);
-  grid-column-gap: 2rem;
+  grid-column-gap: 11rem;
 
 
 }
 .left__content{
 
-width: 31vw;
-    margin-right: 10px;
+width: 200%;
+padding-left: 10px;
+
 }
 .right__content{
-  display: flex;
+  /* display: flex;
 
-  flex-direction: column;
+  flex-direction: column; */
+  /* padding-left: 175px; */
+  width: 100%;
 }
 .form{
-width: 100%;
+width: 25vw;
 }
 .form>.form__field{
   margin-top: 2rem;

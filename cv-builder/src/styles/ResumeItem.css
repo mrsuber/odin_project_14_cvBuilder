@@ -1,7 +1,10 @@
 .resumeItem__container{
   display: flex;
-  
-
+}
+@media screen and (max-width:421px) {
+  .resumeItem__container{
+    font-size: 30%;
+  }
 }
 .resumeItem__container:not(:last-child){
   padding-bottom: 3rem;

@@ -8,14 +8,16 @@ import ReviewSection from '../ReviewSection'
 
 function AboutPage(){
   return(
+    <div className="all">
+    <section className=" aboutPage__container">
 
-    <section className="all aboutPage__container">
 
     <Title title={'About Me'} span={' About Me'}/>
     <ImageSection />
     <ServicesSection />
     <ReviewSection />
     </section>
+    </div>
   )
 
 }
