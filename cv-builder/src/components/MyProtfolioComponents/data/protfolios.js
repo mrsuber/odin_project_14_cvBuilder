@@ -1,4 +1,4 @@
-import img1 from '../../../images/portImages/maya-1.jpg'
+import img1 from '../../../images/portImages/img1.png'
 import img2 from '../../../images/portImages/maya-4.jpg'
 import img3 from '../../../images/portImages/maya-3.jpg'
 // import img4 from '../../../images/portImages/maya-1.jpg'
@@ -6,7 +6,7 @@ import img3 from '../../../images/portImages/maya-3.jpg'
 const portfolios=[
   {
     id:1,
-    category:'Python',
+    category:'React',
     image:img1,
     link1:'#',
     link2:'#',

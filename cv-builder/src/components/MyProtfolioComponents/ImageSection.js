@@ -21,6 +21,7 @@ function ImageSection(){
             <p>Languages</p>
             <p>Location</p>
             <p>Service</p>
+            <p>Religion</p>
 
           </div>
 
@@ -31,6 +32,7 @@ function ImageSection(){
             <p>English</p>
             <p>Buea, South West</p>
             <p>Freelancer(for now)</p>
+            <p>Islam</p>
 
           </div>
           </div>

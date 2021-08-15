@@ -88,12 +88,16 @@ a{
   min-height: 100vh;
 
 }
+.ham-burger-menu{
+  display: none;
+}
 @media screen and (max-width:1200px) {
   .main__content{
       margin-left: 0;
   }
 
   .ham-burger-menu{
+    display: block;
     position: absolute;
     right: 5%;
     top:5%;
