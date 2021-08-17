@@ -1,5 +1,7 @@
 .image__container{
   display: flex;
+  align-items: center;
+  align-content: center;
   margin-top: 3rem;
 }
 .about-info{
@@ -40,6 +42,9 @@ padding-right: 3rem;
   font-size: .85rem;
   /* width: 6rem; */
 }
+/* .right-content{
+  align-items: center;
+} */
 
 @media screen and (max-width:1000px){
   .image__container{

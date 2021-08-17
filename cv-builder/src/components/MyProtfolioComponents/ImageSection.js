@@ -4,9 +4,9 @@ import PrimaryButton from './PrimaryButton'
 function ImageSection(){
   return(
     <div className="image__container">
-      <div className="left-content">
+      {/*<div className="left-content">
         <img src={resume} alt="resume image"/>
-      </div>
+      </div>*/}
       <div className="right-content">
 
             <h4>I Hope I'm <span>wise</span> and <span>clever</span></h4>

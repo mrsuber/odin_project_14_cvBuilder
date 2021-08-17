@@ -13,7 +13,7 @@ function Navigation(){
           <li className="nav__item"><NavLink to="/about" activeClassName="active__class" exact>About</NavLink></li>
           <li className="nav__item"><NavLink to="/resume" activeClassName="active__class" exact>Resume</NavLink></li>
           <li className="nav__item"><NavLink to="/portfolios" activeClassName="active__class" exact>Portfolios</NavLink></li>
-          <li className="nav__item"><NavLink to="/blogs" activeClassName="active__class" exact>Blogs</NavLink></li>
+          {/*<li className="nav__item"><NavLink to="/blogs" activeClassName="active__class" exact>Blogs</NavLink></li>*/}
           <li className="nav__item"><NavLink to="/contact" activeClassName="active__class" exact>Contact</NavLink></li>
           <li className="nav__item"><NavLink to="/cvbuilder" activeClassName="active__class" exact>Create Your CV</NavLink></li>
 
