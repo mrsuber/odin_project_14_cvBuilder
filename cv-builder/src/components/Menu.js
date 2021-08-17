@@ -1,6 +1,7 @@
 import '../styles/Menu.css'
 import GitHub from '@material-ui/icons/GitHub'
-import Pinterest from '@material-ui/icons/Pinterest'
+// import Pinterest from '@material-ui/icons/Pinterest'
+import LinkIcon from '@material-ui/icons/Link';
 
 function Menu({menuItem}){
   return(
@@ -13,7 +14,7 @@ function Menu({menuItem}){
                         <img src={item.image} alt=""/>
                         <ul>
                           <li><a href={item.link1}><GitHub/></a></li>
-                          <li><a href={item.link2}><Pinterest/></a></li>
+                          <li><a href={item.link2}><LinkIcon/></a></li>
 
                         </ul>
                         </div>
