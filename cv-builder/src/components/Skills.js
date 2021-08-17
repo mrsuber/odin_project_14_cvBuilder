@@ -11,15 +11,16 @@ function Skills(){
 
             <div className="innerLayout">
                 <div className="skills">
-                  <Progress title={'HTML5'} width={'80%'} text={'80%'}/>
-                  <Progress title={'CSS3'} width={'70%'} text={'70%'}/>
-                  <Progress title={'DOCKER'} width={'40%'} text={'40%'}/>
-                  <Progress title={'MySQL'} width={'60%'} text={'60%'}/>
-                  <Progress title={'PYTHON'} width={'40%'} text={'40%'}/>
-                  <Progress title={'REACT'} width={'90%'} text={'90%'}/>
-                  <Progress title={'JAVA'} width={'80%'} text={'80%'}/>
-                  <Progress title={'JAVASCRIPT'} width={'90%'} text={'90%'}/>
-                  <Progress title={'Django'} width={'40%'} text={'40%'}/>
+                  <Progress title={'HTML5'} width={'99%'} text={'99%'}/>
+                  <Progress title={'CSS3'} width={'99%'} text={'99%'}/>
+                  <Progress title={'DOCKER'} width={'99%'} text={'99%'}/>
+                  <Progress title={'MySQL'} width={'99%'} text={'99%'}/>
+                  <Progress title={'PYTHON'} width={'99%'} text={'99%'}/>
+                  <Progress title={'REACT'} width={'99%'} text={'99%'}/>
+                  <Progress title={'JAVA'} width={'99%'} text={'99%'}/>
+                  <Progress title={'JAVASCRIPT'} width={'99%'} text={'99%'}/>
+                  <Progress title={'Django'} width={'99%'} text={'99%'}/>
+                  <Progress title={'Flask'} width={'99%'} text={'99%'}/>
 
                 </div>
             </div>
