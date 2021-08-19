@@ -12,6 +12,7 @@ import img11 from '../../../images/portImages/img11.png'
 import img12 from '../../../images/portImages/img12.png'
 import img14 from '../../../images/portImages/img14.png'
 import img15 from '../../../images/portImages/img15.png'
+import img16 from '../../../images/portImages/img16.png'
 
 const portfolios=[
   {
@@ -140,6 +141,17 @@ const portfolios=[
     link2:'https://my-portfolio-fc70b.web.app/cvbuilder',
     title:'CV Builder',
     text:'Odin excercise Number 14.'
+  },
+
+
+  {
+    id:15,
+    category:'React',
+    image:img16,
+    link1:'https://github.com/mrsuber/odin_project_16_memory_game',
+    link2:'https://memory-game-a1fd7.web.app/',
+    title:'Memory Game',
+    text:'Odin excercise Number 14. practice to send properties form child to parent'
   },
 ]
 export default portfolios
