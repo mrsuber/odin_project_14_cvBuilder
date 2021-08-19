@@ -8,6 +8,11 @@
   transition: all .4s ease-in-out;
 
 }
+@media screen and (max-width:439px) {
+  .nav-toggler{
+      width:14.3rem;
+      }
+  }
 
 .nav-toggler{
   width:16.3rem;
