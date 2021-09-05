@@ -13,6 +13,9 @@ import img12 from '../../../images/portImages/img12.png'
 import img14 from '../../../images/portImages/img14.png'
 import img15 from '../../../images/portImages/img15.png'
 import img16 from '../../../images/portImages/img16.png'
+import img17 from '../../../images/portImages/msb-shop.png'
+import img18 from '../../../images/portImages/r-p-s-game2.png'
+import img19 from '../../../images/portImages/dashbourd.png'
 
 const portfolios=[
   {
@@ -27,6 +30,24 @@ const portfolios=[
   {
     id:2,
     category:'React',
+    image:img17,
+    link1:'https://github.com/mrsuber/Ecomerce-web-project',
+    link2:'https://msb-shop-159bb.web.app/',
+    title:'E-Commerce',
+    text:'Material Ui and Commercejs backend'
+  },
+  {
+    id:3,
+    category:'React',
+    image:img19,
+    link1:'https://github.com/mrsuber/Admin-dashboard',
+    link2:'https://dashboard-2a5f8.web.app',
+    title:'Facebook clone',
+    text:'facebook clone with google authentication'
+  },
+  {
+    id:4,
+    category:'React',
     image:img15,
     link1:'https://github.com/mrsuber/FaceBook-clone',
     link2:'https://facebook-clone-a97e2.web.app/',
@@ -34,7 +55,7 @@ const portfolios=[
     text:'facebook clone with google authentication'
   },
   {
-    id:3,
+    id:5,
     category:'React',
     image:img2,
     link1:'https://github.com/mrsuber/Netflix-clone',
@@ -43,7 +64,7 @@ const portfolios=[
     text:'This aplication a netflix clone that play trillars when clicked'
   },
   {
-    id:4,
+    id:6,
     category:'React',
     image:img3,
     link1:'https://github.com/mrsuber/Amazon-clone-React',
@@ -53,43 +74,7 @@ const portfolios=[
   }
   ,
   {
-    id:5,
-    category:'HTML-CSS-JS',
-    image:img4,
-    link1:'https://github.com/mrsuber/odin_project_02',
-    link2:'https://mrsuber.github.io/odin_project_02/',
-    title:'Scketch Bourd',
-    text:'Odin excercise Number 02. Html,css and JS'
-  },
-  {
-    id:6,
-    category:'HTML-CSS',
-    image:img5,
-    link1:'https://github.com/mrsuber/google-homepage',
-    link2:'https://mrsuber.github.io/google-homepage/',
-    title:'Google Search Page Clone',
-    text:'Odin excercise Number 01.only html and css'
-  },
-  {
     id:7,
-    category:'HTML-CSS-JS',
-    image:img6,
-    link1:'https://github.com/mrsuber/odin_project_08_LoginAndSignupFroms',
-    link2:'https://mrsuber.github.io/odin_project_08_LoginAndSignupFroms/',
-    title:'Forms Display',
-    text:'Odin excercise Number 08.Html css and js'
-  },
-  {
-    id:8,
-    category:'HTML-CSS-JS',
-    image:img7,
-    link1:'https://github.com/mrsuber/odin_project_07_todo_app',
-    link2:'https://mrsuber.github.io/odin_project_07_todo_app/',
-    title:'Todo App',
-    text:'Odin excercise Number 07.Html css and js'
-  },
-  {
-    id:9,
     category:'HTML-CSS-JS',
     image:img8,
     link1:'https://github.com/mrsuber/odin_project_06_restaurant',
@@ -98,7 +83,52 @@ const portfolios=[
     text:'Odin excercise Number 06.Html css and js'
   },
   {
+    id:8,
+    category:'HTML-CSS-JS',
+    image:img18,
+    link1:'https://github.com/mrsuber/rock-paper-sisors-game2.0/',
+    link2:'https://mrsuber.github.io/rock-paper-sisors-game2.0/',
+    title:'Rock Paper Scissors',
+    text:'Odin excercise. Html,css and JS'
+  },
+  {
+    id:9,
+    category:'HTML-CSS-JS',
+    image:img4,
+    link1:'https://github.com/mrsuber/odin_project_02',
+    link2:'https://mrsuber.github.io/odin_project_02/',
+    title:'Scketch Bourd',
+    text:'Odin excercise Number 02. Html,css and JS'
+  },
+  {
     id:10,
+    category:'HTML-CSS',
+    image:img5,
+    link1:'https://github.com/mrsuber/google-homepage',
+    link2:'https://mrsuber.github.io/google-homepage/',
+    title:'Google Search Page Clone',
+    text:'Odin excercise Number 01.only html and css'
+  },
+  {
+    id:11,
+    category:'HTML-CSS-JS',
+    image:img6,
+    link1:'https://github.com/mrsuber/odin_project_08_LoginAndSignupFroms',
+    link2:'https://mrsuber.github.io/odin_project_08_LoginAndSignupFroms/',
+    title:'Forms Display',
+    text:'Odin excercise Number 08.Html css and js'
+  },
+  {
+    id:12,
+    category:'HTML-CSS-JS',
+    image:img7,
+    link1:'https://github.com/mrsuber/odin_project_07_todo_app',
+    link2:'https://mrsuber.github.io/odin_project_07_todo_app/',
+    title:'Todo App',
+    text:'Odin excercise Number 07.Html css and js'
+  },
+  {
+    id:13,
     category:'HTML-CSS-JS',
     image:img9,
     link1:'https://github.com/mrsuber/odin_project_09_api_calls',
@@ -107,7 +137,7 @@ const portfolios=[
     text:'Odin excercise Number 09.Html css and js.matering api calls to external servers and managing promises'
   },
   {
-    id:11,
+    id:14,
     category:'HTML-CSS-JS',
     image:img10,
     link1:'https://github.com/mrsuber/odin_project_10_displaying_weater_using_api_calls',
@@ -116,7 +146,7 @@ const portfolios=[
     text:'Odin excercise Number 10.Html css and js.matering ASYNC and AWAIT funtions'
   },
   {
-    id:12,
+    id:15,
     category:'HTML-CSS-JS',
     image:img11,
     link1:'https://github.com/mrsuber/odin_project_12_BattleShip_Game',
@@ -125,7 +155,7 @@ const portfolios=[
     text:'Odin excercise Number 12.Html css and js.'
   },
   {
-    id:13,
+    id:16,
     category:'React',
     image:img12,
     link1:'https://github.com/mrsuber/odin_project_13_Introduction_to_React/tree/master/task-app',
@@ -134,7 +164,7 @@ const portfolios=[
     text:'Odin excercise Number 13.Task traker'
   },
   {
-    id:14,
+    id:17,
     category:'React',
     image:img14,
     link1:'https://github.com/mrsuber/odin_project_14_cvBuilder',
@@ -145,7 +175,7 @@ const portfolios=[
 
 
   {
-    id:15,
+    id:18,
     category:'React',
     image:img16,
     link1:'https://github.com/mrsuber/odin_project_16_memory_game',
