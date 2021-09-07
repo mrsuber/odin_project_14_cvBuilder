@@ -16,6 +16,7 @@ import img16 from '../../../images/portImages/img16.png'
 import img17 from '../../../images/portImages/msb-shop.png'
 import img18 from '../../../images/portImages/r-p-s-game2.png'
 import img19 from '../../../images/portImages/dashbourd.png'
+import img20 from '../../../images/portImages/netflix2.png'
 
 const portfolios=[
   {
@@ -42,8 +43,8 @@ const portfolios=[
     image:img19,
     link1:'https://github.com/mrsuber/Admin-dashboard',
     link2:'https://dashboard-2a5f8.web.app',
-    title:'Facebook clone',
-    text:'facebook clone with google authentication'
+    title:'Dashbord',
+    text:'Dashboard to manage backend of some apps'
   },
   {
     id:4,
@@ -65,6 +66,15 @@ const portfolios=[
   },
   {
     id:6,
+    category:'React',
+    image:img20,
+    link1:'https://github.com/mrsuber/Netflix-clone-2.0/',
+    link2:'https://netflix2-b7b91.web.app/',
+    title:'Netflix Clones version2',
+    text:'The odin prodject Final excercise on javaScript'
+  },
+  {
+    id:6.1,
     category:'React',
     image:img3,
     link1:'https://github.com/mrsuber/Amazon-clone-React',
