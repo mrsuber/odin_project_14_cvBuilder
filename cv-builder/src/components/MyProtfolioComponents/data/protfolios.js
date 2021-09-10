@@ -15,6 +15,8 @@ import img15 from '../../../images/portImages/img15.png'
 import img16 from '../../../images/portImages/img16.png'
 import img17 from '../../../images/portImages/msb-shop.png'
 import img18 from '../../../images/portImages/r-p-s-game2.png'
+import img181 from '../../../images/portImages/tic-tac-toe.png'
+
 import img19 from '../../../images/portImages/dashbourd.png'
 import img20 from '../../../images/portImages/netflix2.png'
 
@@ -99,6 +101,15 @@ const portfolios=[
     link1:'https://github.com/mrsuber/rock-paper-sisors-game2.0/',
     link2:'https://mrsuber.github.io/rock-paper-sisors-game2.0/',
     title:'Rock Paper Scissors',
+    text:'Odin excercise. Html,css and JS'
+  },
+  {
+    id:8.1,
+    category:'HTML-CSS-JS',
+    image:img181,
+    link1:'https://github.com/mrsuber/odin_project_05_TicTacToe',
+    link2:'https://mrsuber.github.io/odin_project_05_TicTacToe/',
+    title:'Tic Tac Toe',
     text:'Odin excercise. Html,css and JS'
   },
   {
