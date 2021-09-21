@@ -19,6 +19,10 @@ import img181 from '../../../images/portImages/tic-tac-toe.png'
 
 import img19 from '../../../images/portImages/dashbourd.png'
 import img20 from '../../../images/portImages/netflix2.png'
+import img21 from '../../../images/portImages/crypto.png'
+
+
+
 
 const portfolios=[
   {
@@ -47,6 +51,15 @@ const portfolios=[
     link2:'https://dashboard-2a5f8.web.app',
     title:'Dashbord',
     text:'Dashboard to manage backend of some apps'
+  },
+  {
+    id:4.1,
+    category:'React',
+    image:img21,
+    link1:'https://github.com/mrsuber/Cryptocurency-react-app',
+    link2:'https://cryptoverse-c9bc2.web.app/',
+    title:'CryptoCurency aplication',
+    text:'tells details about CryptoCurency'
   },
   {
     id:4,
